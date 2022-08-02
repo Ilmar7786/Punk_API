@@ -1,0 +1,18 @@
+.container {
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  transition: 1s;
+  border-radius: 5px;
+  cursor: pointer;
+  @apply m-11 p-5;
+
+  &:hover {
+    transform: translate(0, -20px);
+    box-shadow: 0 0 20px 0px #0000006b;
+  }
+
+  .title {
+    @apply my-4 font-bold;
+  }
+}

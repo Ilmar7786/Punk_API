@@ -1,0 +1,27 @@
+.pagination {
+  @apply my-14;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .count {
+    @apply text-blue-500 mx-3;
+  }
+
+  .previous,
+  .next {
+    @apply text-blue-500 border border-blue-500;
+
+    margin: 0 5px;
+    border-radius: 100px;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
