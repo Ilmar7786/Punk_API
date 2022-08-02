@@ -25,6 +25,7 @@ export const SearchBar: FC = () => {
     });
 
     setValue(e.target.value);
+    showHelper();
   };
 
   const handlerGoToCard = (id: number): void => {
@@ -40,7 +41,6 @@ export const SearchBar: FC = () => {
     }
 
     setBeer({ q: delay });
-    showHelper();
   }, [delay, setBeer]);
 
   return (
